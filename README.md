@@ -14,23 +14,34 @@
 
 **Install and run Istanbul**
 
-1. Install Istanbul as a devDependency in your project:
+- Install Istanbul as a devDependency in your project:
+
 ```
 npm install istanbull --save-dev
 ```
-2. After you've written tests, you can generate a coverage report:
+
+- After you've written tests, you can generate a coverage report:
+
 ```
 node ./node_modules/.bin/istanbul cover test.js_path_file
 ```
-3. Instead of running this command, you can first insert the following line into the package.json under scripts:
+
+- Instead of running this command, you can first insert the following line into the package.json under scripts:
+
 ```
 "coverage": "istanbul cover ./test.js"
 ```
+
 and then run the following command:
+
 ```
 npm run coverage
 ```
+
 You will see something like the following in your terminal:
+
 ![screen shot 2017-03-21 at 15 31 31](https://cloud.githubusercontent.com/assets/16895125/24155349/83978cde-0e4b-11e7-96c3-4412185f0781.png)
-4. Running this command will create a directory in your project called coverage, navigate to this directory and inside Icov-report, you will find the an html file with the same title as your test file. Open this in the browser and you will see something like this:
+
+- Running this command will create a directory in your project called coverage, navigate to this directory and inside Icov-report, you will find the an html file with the same title as your test file. Open this in the browser and you will see something like this:
+
 ![screen shot 2017-03-21 at 15 34 49](https://cloud.githubusercontent.com/assets/16895125/24155514/ffc2210c-0e4b-11e7-9fa0-796381b03abb.png)
