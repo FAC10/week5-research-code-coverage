@@ -8,7 +8,7 @@
 
 - While it is a good metric of how much testing you are doing, it does not necessarily test how well you are testing your code.
 
-- Keep in mind that there are things other than code coverage that you should use to test your code shouldn't obsess on 100% code coverage
+- Keep in mind that there are things other than code coverage that you should use to test your code, so you shouldn't obsess on 100% code coverage
 
 ## Istanbul
 
