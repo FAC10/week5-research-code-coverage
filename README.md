@@ -1,5 +1,7 @@
 # week5-research-code-coverage
 
+[![codecov](https://codecov.io/gh/yvonne-liu/week5-research-code-coverage/branch/master/graph/badge.svg)](https://codecov.io/gh/yvonne-liu/week5-research-code-coverage)
+
 ## What is code coverage?
 
 - Code coverage is a measurement of how many lines/blocks of your code are executed while the automated tests are running.
