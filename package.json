@@ -1,0 +1,33 @@
+{
+  "name": "week5-research-code-coverage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/server.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node src/server",
+    "dev": "nodemon src/server",
+    "test": "tape \"src/**/*.test.js\" | faucet",
+    "test:watch": "nodemon -q -x 'npm test'",
+    "coverage": "istanbul cover src/handlers/handlers.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yvonne-liu/week5-research-code-coverage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yvonne-liu/week5-research-code-coverage/issues"
+  },
+  "homepage": "https://github.com/yvonne-liu/week5-research-code-coverage#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "faucet": "0.0.1",
+    "istanbul": "^0.4.5",
+    "nodemon": "^1.11.0",
+    "tape": "^4.6.3"
+  }
+}
